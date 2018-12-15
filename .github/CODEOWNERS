@@ -2,6 +2,7 @@
 
 # localization
 /share/locale/ @emmapeel2
+/share/locale/ @WeblateOrg
 
 # tests
 /tests/ @mig5
