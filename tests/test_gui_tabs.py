@@ -165,7 +165,7 @@ class TestTabs(GuiBaseTest):
 
     @pytest.mark.gui
     def test_08_close_receive_tab_while_server_started_should_warn(self):
-        """Closing a recieve mode tab when the server is running should throw a warning"""
+        """Closing a receive mode tab when the server is running should throw a warning"""
         tab = self.new_receive_tab()
         self.close_tab_with_active_server(tab)
 
